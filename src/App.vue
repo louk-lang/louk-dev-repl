@@ -25,6 +25,8 @@
     import loukSrc from '../../louk/src/index.ts'
     import loukDist from '../../louk/dist/index.js'
     import loukInstall from 'louk'
+    import defaultInput from '../default.louk'
+
     export default {
         name: 'app',
         components: {
@@ -32,7 +34,7 @@
         },
         data: function(){
             return {
-                input: "abc",
+                input: defaultInput,
                 editOptions: {
                     tabSize: 4,
                     mode: 'text/javascript',
