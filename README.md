@@ -1,16 +1,7 @@
-# louk-dev-repl
+# Louk Dev REPL
 
-## Project setup
-```
-npm install
-```
+Interactive live-reloading REPL for [Louk](https://github.com/louk-lang/louk) development.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Clone this repository as a peer of `louk`, then `npm install` and `npm start`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+<img alt="Louk Dev REPL Preview" src="img/preview.png" width="100%" />
