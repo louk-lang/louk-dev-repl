@@ -1,11 +1,13 @@
 <template>
     <div id="app">
         <div id="editors">
-            <codemirror v-model="input" v-bind:options="editOptions"></codemirror>
+            <codemirror target="_blank" v-model="input" v-bind:options="editOptions"></codemirror>
             <codemirror v-model="output" v-bind:options="previewOptions"></codemirror>
         </div>
         <div id="toolbar">
-            <img id="logo" src="logo.png" />
+            <a alt="Louk logo" href="https://github.com/louk-lang/louk-dev-repl">
+                <img id="logo" src="logo.png" />
+            </a>
             <div>
                 <span class="path">{{versionPath}}</span>
                 <select id="version-selector" v-model="version">
@@ -114,7 +116,7 @@
         justify-content: space-between;
     }
     #logo{
-        height: 100%;
+        height: 20px;
     }
     .vue-codemirror{
         width:50%;
@@ -125,11 +127,5 @@
     .path{
         font-size: 12px;
         margin:3px 10px 2px 10px;
-    }
-    #version-selector{
-        align-self: flex-end;
-    }
-    #version-path{
-
     }
 </style>
