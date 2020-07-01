@@ -21,7 +21,7 @@
     "@vue/cli-plugin-babel": "^4.4.6",
     "@vue/cli-plugin-typescript": "^4.4.6",
     "raw-loader": "^4.0.1",
-    "typescript": "^3.7.3",
+    "typescript": "^3.9.5",
     "vue-template-compiler": "^2.6.11"
   }
 }
